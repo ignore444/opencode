@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Bash",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\ndocs: add project analysis documentation and Claude settings\n\nAdd comprehensive Korean documentation analyzing the OpenCode codebase:\n- Project overview and tech stack\n- Directory structure \\(35 modules\\)\n- Agent system architecture\n- Tool system with 20+ built-in tools\n- Provider system \\(30+ LLM providers\\)\n- Session management system\n- SDK package reference\n- UI/App packages architecture\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
